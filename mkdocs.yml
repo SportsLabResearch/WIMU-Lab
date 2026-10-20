@@ -7,7 +7,7 @@ nav:
   - Inicio: index.md
   - Instalación: instalacion.md
   - Importación: importacion.md
-  - GPS: gps.md
+  - GPS y gráficos: gps.md
   - Metodología: metodologia.md
 theme:
   name: material
@@ -16,6 +16,15 @@ theme:
     - navigation.tabs
     - navigation.top
     - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+    - scheme: slate
+      primary: indigo
+      accent: blue
+extra_css:
+  - stylesheets/extra.css
 plugins:
   - search
 markdown_extensions:
