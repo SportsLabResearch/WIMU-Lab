@@ -15,6 +15,7 @@ nav:
   - Informes: informes.md
   - Ajustes: ajustes.md
   - Metodología: metodologia.md
+  - Autores: autores.md
 theme:
   name: material
   language: es
