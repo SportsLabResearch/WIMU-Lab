@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es-ES">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WIMU Lab</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23142B4C'/%3E%3Cpath d='M5 20l5-9 5 7 4-5 4 7 4-4' fill='none' stroke='%23eb6834' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/web/app.css">
+<link rel="stylesheet" href="/web/wimu.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+</head>
+<body>
+<header class="appbar">
+  <div class="brand">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#fff" fill-opacity=".12"/><path d="M5 20l5-9 5 7 4-5 4 7 4-4" fill="none" stroke="#eb6834" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <div class="brand-text"><b>WIMU Lab</b><span>Carga externa e interna</span></div>
+  </div>
+  <nav class="menubar" id="menubar" role="menubar"></nav>
+  <div class="appbar-right">
+    <button class="chip" id="job-chip" title="Tareas en curso" hidden></button>
+    <button class="icon-btn" id="theme-btn" title="Cambiar tema (Ctrl+Mayús+L)" aria-label="Cambiar tema"></button>
+    <button class="icon-btn" id="exit-btn" title="Salir de WIMU Lab" aria-label="Salir"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 4h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-3M10 17l-5-5 5-5M5 12h11"/></svg></button>
+  </div>
+</header>
+<nav class="tabs" id="tabs" role="tablist"></nav>
+<main id="view" tabindex="-1"></main>
+<footer class="statusbar">
+  <span id="st-state"><i class="dot"></i>Preparado</span>
+  <span id="st-datos"></span>
+  <span class="grow"></span>
+  <span>Los datos no salen de este equipo</span>
+  <span id="st-version"></span>
+</footer>
+<div id="toasts" aria-live="polite"></div>
+<div id="modal-root"></div>
+<input type="file" id="file-input" accept=".xlsx,.xls,.csv" hidden>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="/web/charts.js"></script>
+<script src="/web/app.js"></script>
+<script src="/web/sesion.js"></script>
+<script src="/web/analisis.js"></script>
+<script src="/web/comparador.js"></script>
+</body>
+</html>

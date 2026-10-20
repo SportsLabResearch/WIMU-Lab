@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Si utiliza WIMU-Lab en investigación, cite esta versión del software."
+title: "WIMU-Lab: software para el análisis de datos de monitorización deportiva"
+type: software
+authors:
+  - family-names: Pino-Ortega
+    given-names: José
+version: 1.2.0
+date-released: 2026-10-20
+repository-code: "https://github.com/SportsLabResearch/WIMU-Lab"
+keywords:
+  - sports analytics
+  - GPS
+  - wearables
+  - physical activity
