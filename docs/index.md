@@ -11,6 +11,7 @@
 <div class="wimu-card"><strong>🔬 Concordancia</strong><p>SPRO y comparación entre dispositivos.</p><a href="comparacion/">Consultar →</a></div>
 <div class="wimu-card"><strong>📄 Informes</strong><p>Informes individuales y colectivos.</p><a href="informes/">Consultar →</a></div>
 <div class="wimu-card"><strong>🛠️ Ajustes</strong><p>Configuración, autores y ayuda.</p><a href="ajustes/">Consultar →</a></div>
+<div class="wimu-card"><strong>👥 Autores</strong><p>Equipo de desarrollo e investigación de WIMU-Lab.</p><a href="autores/">Ver autores →</a></div>
 <div class="wimu-card"><strong>📚 Metodología</strong><p>Calidad de datos y limitaciones.</p><a href="metodologia/">Consultar →</a></div>
 </div>
 
