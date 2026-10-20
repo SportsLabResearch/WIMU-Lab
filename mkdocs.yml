@@ -1,13 +1,19 @@
-site_name: WIMU-Lab | Manual científico
-site_description: Manual técnico y científico de WIMU-Lab v1.2.0
+site_name: WIMU-Lab | Manual de la aplicación
+site_description: Manual de uso de WIMU-Lab v1.2.0
 site_url: https://sportslabresearch.github.io/WIMU-Lab/
 repo_url: https://github.com/SportsLabResearch/WIMU-Lab
 repo_name: SportsLabResearch/WIMU-Lab
 nav:
   - Inicio: index.md
   - Instalación: instalacion.md
+  - Interfaz: interfaz.md
+  - Sesiones: sesiones.md
   - Importación: importacion.md
   - GPS y gráficos: gps.md
+  - Análisis: analisis.md
+  - Comparación: comparacion.md
+  - Informes: informes.md
+  - Ajustes: ajustes.md
   - Metodología: metodologia.md
 theme:
   name: material
